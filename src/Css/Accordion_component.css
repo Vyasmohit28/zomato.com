@@ -1,0 +1,23 @@
+.accordian-container {
+    margin-left: 10vw;
+    width: 80vw;
+    /* background-color: #f8f9fa; */
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .accordion-button {
+    padding: 1.5vw;
+    font-size: 1.3rem;
+    /* font-weight: 500; */
+  }
+  
+  .accordion-body {
+    background-color: #fff;
+  }
+  
+  .accordion-item {
+    border: 1px solid #e0e0e0;
+    margin-top: 3vh;
+  }
+  

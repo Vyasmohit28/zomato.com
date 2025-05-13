@@ -1,0 +1,91 @@
+/* Center the search bar */
+.search-container {
+    padding: 20px;
+    width: 100%;
+  }
+  
+  /* Search Box */
+  .search-box {
+    background: white;
+    padding: 12px;
+    border-radius: 1vw;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 50vw;
+    max-width: 100%;
+  }
+  
+  /* Location Icon */
+  .location-icon {
+    font-size: 18px;
+    color: #ff4f5a;
+    margin-right: 8px;
+  }
+  
+  /* Location Dropdown */
+  .location-dropdown {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+    width: auto;
+    cursor: pointer;
+    outline: none;
+    padding: 0 10px;
+  }
+  
+  /* Remove Bootstrap default styles */
+  .location-dropdown:focus {
+    box-shadow: none;
+    border: none;
+  }
+  
+  /* Dropdown Arrow */
+  .dropdown-arrow {
+    font-size: 14px;
+    color: #888;
+    margin-right: 12px;
+  }
+  
+  /* Search Input */
+  .search-input {
+    flex-grow: 1;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    color: #333;
+    padding: 8px;
+  }
+  
+  /* Remove Bootstrap default styles */
+  .search-input:focus {
+    box-shadow: none;
+  }
+  
+  /* Placeholder Styling */
+  .search-input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Search Icon */
+  .search-icon {
+    font-size: 18px;
+    color: #666;
+    margin-left: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .search-box {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    .search-input {
+      font-size: 14px;
+    }
+  
+    .location-dropdown {
+      font-size: 14px;
+    }
+  }
+  
