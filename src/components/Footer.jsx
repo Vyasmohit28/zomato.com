@@ -12,7 +12,6 @@ const Footer = () => {
             <h2 className="logo">zomato</h2>
           </div>
 
-          {/* About Zomato */}
           <div className="col-md-2">
             <h6 className="fw-bold">ABOUT ZOMATO</h6>
             <ul className="list-unstyled">
