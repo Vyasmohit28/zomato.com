@@ -24,7 +24,6 @@ const Footer = () => {
               <li><a href="#">Contact Us</a></li>
             </ul>
           </div>
-{/* hghjgjkghkuhkuhg */}
           {/* Zomaverse */}
           <div className="col-md-2">
             <h6 className="fw-bold">ZOMAVERSE</h6>
