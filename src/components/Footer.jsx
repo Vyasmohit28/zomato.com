@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-md-3 text-md-start text-center mb-4 mb-md-0">
             <h2 className="logo">zomato</h2>
           </div>
-
+{/* gsngjmhg */}
           {/* About Zomato */}
           <div className="col-md-2">
             <h6 className="fw-bold">ABOUT ZOMATO</h6>
